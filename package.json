@@ -1,0 +1,42 @@
+{
+  "name": "zapateria-rest",
+  "version": "1.0.0",
+  "description": "Rest de un sistema de zapateria francisco quijada",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscoquijada/zapateria-rest-node.git"
+  },
+  "keywords": [
+    "rest",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Francisco Quijada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscoquijada/zapateria-rest-node/issues"
+  },
+  "homepage": "https://github.com/franciscoquijada/zapateria-rest-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.6.1",
+    "formidable": "^1.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "mongoose": "^5.10.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "uuid": "^8.3.0"
+  }
+}
